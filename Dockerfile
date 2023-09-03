@@ -1,6 +1,7 @@
 FROM python:3.8-slim
 
 RUN pip install Flask
+RUN pip install requests
 
 COPY app.py /app.py
 
